@@ -2,7 +2,7 @@
 
 @section('title', 'Comics | DC')
     
-@section('contetn')
+@section('content')
     <div>
         Comics content
     </div>

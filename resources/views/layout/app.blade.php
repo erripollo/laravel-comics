@@ -7,10 +7,10 @@
     <title>@yield('title')</title>
 </head>
 <body>
-    
+
     {{-- site header --}}
     <header id="site_header">
-        header content
+        Header content
         <div class="top_header">
 
         </div>
