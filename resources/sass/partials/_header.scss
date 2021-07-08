@@ -1,0 +1,31 @@
+//header
+#site_header {
+    .top_header {
+        background-color: $brand_color;
+
+        .container {
+            display: flex;
+            justify-content: flex-end;
+
+            div {
+                margin-left: 80px;
+                text-transform: uppercase;
+                font-size: 0.75rem;
+                color: white;
+                font-weight: 500;
+                padding: 0.5rem 0;
+            }
+        }
+    }
+
+    .menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 0;
+
+        .logo {
+            width: 90px;
+        }
+    }
+}
