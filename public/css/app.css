@@ -13,6 +13,11 @@ body {
   margin: auto;
 }
 
+/* site header css */
+#site_header {
+  /* navbar css */
+  /* Jumbotron css */
+}
 #site_header .top_header {
   background-color: #0482f9;
 }
@@ -49,6 +54,10 @@ body {
   margin-left: 2rem;
   font-size: 0.85rem;
 }
+#site_header .menu .links .active {
+  color: #0482f9;
+  border-bottom: 3px solid #0482f9;
+}
 #site_header .menu .links .input_group {
   margin-left: 4rem;
   border-bottom: 2px solid #0482f9;
@@ -63,4 +72,10 @@ body {
 }
 #site_header .menu .links .input_group i {
   color: #464646;
+}
+#site_header .jumbotron {
+  height: 350px;
+  background-image: url(../img/jumbotron.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }

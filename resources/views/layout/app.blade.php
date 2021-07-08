@@ -31,7 +31,7 @@
                 </div>
                 <div class="links">
                     <a href="#">Characters</a>
-                    <a href="#">Comics</a>
+                    <a href="{{route('comics')}}" class="{{Route::currentRouteName() === 'comics' ? 'active' : '' }}">Comics</a>
                     <a href="#">Movies</a>
                     <a href="#">Tv</a>
                     <a href="#">Games</a>
@@ -46,8 +46,10 @@
                         <i class="fas fa-search"></i>
                     </div>
                 </div>
-    
             </nav>
+        </div>
+        <div class="jumbotron">
+            
         </div>
     </header>
 
