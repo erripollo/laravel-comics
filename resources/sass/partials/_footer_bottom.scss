@@ -1,0 +1,43 @@
+/* footer bottom csss */
+.footer_bottom {
+    background-color: #303030;
+    padding: 2.5rem 0;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .btn {
+            color: white;
+            text-transform: uppercase;
+            .btn_outline {
+                border: 2px solid $brand_color;
+                padding: 1rem 1.2rem;
+                display: inline-block;
+
+                &:hover {
+                    cursor: pointer;
+                    background-color: $brand_color;
+                }
+            }
+        }
+
+        .social {
+            display: flex;
+            align-items: center;
+
+            span {
+                text-transform: uppercase;
+                color: $brand_color;
+                display: inline-block;
+            }
+            img {
+                margin-left: 1.2rem;
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

@@ -207,3 +207,42 @@ body {
 #site_footer a:hover {
   color: #0482f9;
 }
+
+/* footer bottom csss */
+.footer_bottom {
+  background-color: #303030;
+  padding: 2.5rem 0;
+}
+.footer_bottom .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer_bottom .container .btn {
+  color: white;
+  text-transform: uppercase;
+}
+.footer_bottom .container .btn .btn_outline {
+  border: 2px solid #0482f9;
+  padding: 1rem 1.2rem;
+  display: inline-block;
+}
+.footer_bottom .container .btn .btn_outline:hover {
+  cursor: pointer;
+  background-color: #0482f9;
+}
+.footer_bottom .container .social {
+  display: flex;
+  align-items: center;
+}
+.footer_bottom .container .social span {
+  text-transform: uppercase;
+  color: #0482f9;
+  display: inline-block;
+}
+.footer_bottom .container .social img {
+  margin-left: 1.2rem;
+}
+.footer_bottom .container .social img:hover {
+  cursor: pointer;
+}
