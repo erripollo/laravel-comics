@@ -6,34 +6,40 @@
         background-repeat: no-repeat;
         background-size: cover;
         color: white;
-        padding: 2rem 0;
 
-        .links {
-            height: 380px;
-            display: flex;
-            flex-flow: column wrap;
-            align-items: flex-start;
-            align-content: flex-start;
-
-            .list {
+        .container {
+            background-image: url(../img/dc-logo-bg.png);
+            background-position: right;
+            background-repeat: no-repeat;
+            background-size: 55%;
+            padding: 2rem 0;
+            .links {
+                height: 380px;
                 display: flex;
-                flex-direction: column;
-                margin-right: 3rem;
+                flex-flow: column wrap;
+                align-items: flex-start;
+                align-content: flex-start;
 
-                h2 {
-                    text-transform: uppercase;
-                    font-weight: 600;
-                    font-size: 1.3rem;
-                    margin: 1.5rem 0;
+                .list {
+                    display: flex;
+                    flex-direction: column;
+                    margin-right: 3rem;
+
+                    h2 {
+                        text-transform: uppercase;
+                        font-weight: 600;
+                        font-size: 1.3rem;
+                        margin: 1.5rem 0;
+                    }
                 }
             }
-        }
-        .copyright {
-            color: #959595;
-            font-size: 0.8rem;
+            .copyright {
+                color: #959595;
+                font-size: 0.8rem;
 
-            a {
-                color: $brand_color;
+                a {
+                    color: $brand_color;
+                }
             }
         }
     }
