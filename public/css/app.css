@@ -250,6 +250,21 @@ body {
 .bottom_section .container .col_right {
   width: calc(100% / 2);
 }
+.bottom_section .container .col_right .talent {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-size: 0.8rem;
+  width: 100%;
+  padding: 0.8rem 0;
+}
+.bottom_section .container .col_right .talent .talent_title {
+  width: 30%;
+  font-size: 0.9rem;
+}
+.bottom_section .container .col_right .talent .talent_section {
+  width: 70%;
+}
 
 /* Site footer css */
 #site_footer .footer_top {

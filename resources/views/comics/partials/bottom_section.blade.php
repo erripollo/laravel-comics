@@ -2,19 +2,21 @@
 
 <div class="bottom_section">
     <div class="container">
+
         <div class="col_right">
             <h3>Talent</h3>
-            <div class="art">
-                <div>Art by:</div>
-                <div>
+
+            <div class="talent">
+                <div class="talent_title">Art by:</div>
+                <div class="talent_section">
                     @foreach ($comic['artists'] as $artist)
                         <span>{{$artist}}, </span>
                     @endforeach
                 </div>
             </div>
-            <div class="write">
-                <div>Written by:</div>
-                <div>
+            <div class="talent">
+                <div class="talent_title">Written by:</div>
+                <div class="talent_section">
                     @foreach ($comic['writers'] as $writer)
                         <span>{{$writer}}, </span>
                     @endforeach
