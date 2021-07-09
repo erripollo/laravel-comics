@@ -23,7 +23,6 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 1rem 0;
 
         .logo {
             img {
@@ -42,27 +41,33 @@
                 text-transform: uppercase;
                 margin-left: 2rem;
                 font-size: 0.85rem;
+                padding: 3rem 0;
             }
             .active {
                 color: $brand_color;
-                border-bottom: 3px solid $brand_color;
+                border-bottom: 4px solid $brand_color;
             }
 
             .input_group {
                 margin-left: 4rem;
-                border-bottom: 2px solid $brand_color;
-                padding-bottom: 0.3rem;
+
+                display: flex;
+                align-items: center;
 
                 input {
                     width: 100px;
                     border: none;
                     text-align: right;
                     font-size: 0.9rem;
-                    margin-right: 0.2rem;
+                    padding-right: 0.2rem;
+                    border-bottom: 2px solid $brand_color;
+                    padding-bottom: 0.3rem;
                 }
 
                 i {
                     color: #464646;
+                    border-bottom: 2px solid $brand_color;
+                    padding-bottom: 0.3rem;
                 }
             }
         }
