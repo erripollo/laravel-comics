@@ -11,19 +11,21 @@
     <div class="container">
         <nav class="menu">
             <div class="logo">
-                <img src="./img/dc-logo.png" alt="">
+                <a href="{{route('home')}}">
+                    <img src="./img/dc-logo.png" alt="">
+                </a>
             </div>
             <div class="links">
-                <a href="#">Characters</a>
+                <a href="{{route('characters')}}" class="{{Route::currentRouteName() === 'characters' ? 'active' : '' }}">Characters</a>
                 <a href="{{route('comics')}}" class="{{Route::currentRouteName() === 'comics' ? 'active' : '' }}">Comics</a>
-                <a href="#">Movies</a>
-                <a href="#">Tv</a>
-                <a href="#">Games</a>
-                <a href="#">Collectibles</a>
-                <a href="#">Vides</a>
-                <a href="#">Fans</a>
-                <a href="#">News</a>
-                <a href="#">Shop</a>
+                <a href="{{route('movies')}}" class="{{Route::currentRouteName() === 'movies' ? 'active' : '' }}">Movies</a>
+                <a href="{{route('tv')}}" class="{{Route::currentRouteName() === 'tv' ? 'active' : '' }}">Tv</a>
+                <a href="{{route('games')}}" class="{{Route::currentRouteName() === 'games' ? 'active' : '' }}">Games</a>
+                <a href="{{route('collectibles')}}" class="{{Route::currentRouteName() === 'collectibles' ? 'active' : '' }}">Collectibles</a>
+                <a href="{{route('videos')}}" class="{{Route::currentRouteName() === 'videos' ? 'active' : '' }}">Vides</a>
+                <a href="{{route('fans')}}" class="{{Route::currentRouteName() === 'fans' ? 'active' : '' }}">Fans</a>
+                <a href="{{route('news')}}" class="{{Route::currentRouteName() === 'news' ? 'active' : '' }}">News</a>
+                <a href="{{route('shop')}}" class="{{Route::currentRouteName() === 'shop' ? 'active' : '' }}">Shop</a>
 
                 <div class="input_group">
                     <input type="text" placeholder="Search">
