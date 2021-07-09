@@ -12,7 +12,7 @@
         <nav class="menu">
             <div class="logo">
                 <a href="{{route('home')}}">
-                    <img src="./img/dc-logo.png" alt="">
+                    <img src="{{asset('img/dc-logo.png')}}" alt="">
                 </a>
             </div>
             <div class="links">

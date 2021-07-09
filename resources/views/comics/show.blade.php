@@ -1,9 +1,9 @@
 @extends('layout.app')
 
-@section('title', 'Comics | DC')
+@section('title', 'Comic | DC')
     
-@section('content')
+@section('comic_content')
 
-    <h1>comic</h1>
+    <h1>{{$comic['title']}}</h1>
    
 @endsection

@@ -2,7 +2,7 @@
 
 @section('title', 'Comics | DC')
     
-@section('content')
+@section('comics_content')
 
     <div class="comics_main">
         
@@ -30,31 +30,31 @@
         <div class="main_bottom">
             <div class="container">
                 <div class="card">
-                    <img src="./img/buy-comics-digital-comics.png" alt="">
+                    <img src="{{asset('img/buy-comics-digital-comics.png')}}" alt="">
                     <div>
                         Digital comics
                     </div>
                 </div>
                 <div class="card">
-                    <img src="./img/buy-comics-merchandise.png" alt="">
+                    <img src="{{asset('img/buy-comics-merchandise.png')}}" alt="">
                     <div>
                         Dc merchandise
                     </div>
                 </div>
                 <div class="card">
-                    <img src="./img/buy-comics-subscriptions.png" alt="">
+                    <img src="{{asset('img/buy-comics-subscriptions.png')}}" alt="">
                     <div>
                         Subscriptions
                     </div>
                 </div>
                 <div class="card">
-                    <img src="./img/buy-comics-shop-locator.png" alt="">
+                    <img src="{{asset('img/buy-comics-shop-locator.png')}}" alt="">
                     <div>
                         Comic shop locator
                     </div>
                 </div>
                 <div class="card">
-                    <img src="./img/buy-dc-power-visa.svg" alt="">
+                    <img src="{{asset('img/buy-dc-power-visa.svg')}}" alt="">
                     <div>
                         Dc power visa
                     </div>

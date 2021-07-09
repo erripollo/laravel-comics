@@ -27,7 +27,8 @@
 
     {{-- Site main --}}
     <main id="site_main">
-        @yield('content')
+        @yield('comics_content')
+        @yield('comic_content')
     </main>
 
    @include('partials.footer')
