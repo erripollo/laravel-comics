@@ -4,6 +4,6 @@
     
 @section('content')
 
-    <h1>comics</h1>
+    <h1>comic</h1>
    
 @endsection
