@@ -243,6 +243,14 @@ body {
   padding-left: 2.5rem;
 }
 
+/* Comic bottom section css */
+.bottom_section .container {
+  display: flex;
+}
+.bottom_section .container .col_right {
+  width: calc(100% / 2);
+}
+
 /* Site footer css */
 #site_footer .footer_top {
   background-image: url(../img/footer-bg.jpg);

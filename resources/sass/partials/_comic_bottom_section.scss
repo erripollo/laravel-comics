@@ -1,0 +1,11 @@
+/* Comic bottom section css */
+
+.bottom_section {
+    .container {
+        display: flex;
+
+        .col_right {
+            width: calc(100% / 2);
+        }
+    }
+}
