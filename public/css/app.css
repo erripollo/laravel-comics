@@ -249,8 +249,13 @@ body {
 }
 .bottom_section .container .col_right {
   width: calc(100% / 2);
+  padding-right: 1rem;
 }
-.bottom_section .container .col_right .talent {
+.bottom_section .container .col_left {
+  width: calc(100% / 2);
+  padding-left: 1rem;
+}
+.bottom_section .container .info {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -258,11 +263,11 @@ body {
   width: 100%;
   padding: 0.8rem 0;
 }
-.bottom_section .container .col_right .talent .talent_title {
+.bottom_section .container .info .info_title {
   width: 30%;
   font-size: 0.9rem;
 }
-.bottom_section .container .col_right .talent .talent_section {
+.bottom_section .container .info .info_section {
   width: 70%;
 }
 

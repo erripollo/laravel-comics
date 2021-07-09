@@ -6,22 +6,26 @@
 
         .col_right {
             width: calc(100% / 2);
+            padding-right: 1rem;
+        }
+        .col_left {
+            width: calc(100% / 2);
+            padding-left: 1rem;
+        }
+        .info {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            font-size: 0.8rem;
+            width: 100%;
+            padding: 0.8rem 0;
 
-            .talent {
-                display: flex;
-                justify-content: space-between;
-                flex-wrap: wrap;
-                font-size: 0.8rem;
-                width: 100%;
-                padding: 0.8rem 0;
-
-                .talent_title {
-                    width: 30%;
-                    font-size: 0.9rem;
-                }
-                .talent_section {
-                    width: 70%;
-                }
+            .info_title {
+                width: 30%;
+                font-size: 0.9rem;
+            }
+            .info_section {
+                width: 70%;
             }
         }
     }

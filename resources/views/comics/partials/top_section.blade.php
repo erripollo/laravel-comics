@@ -6,7 +6,7 @@
             <div class="poster">
                 <img src="{{$comic['thumb']}}" alt="">
                 <div class="book">Comic book</div>
-                <div class="gallery">Viwe gallery</div>
+                <div class="gallery">View gallery</div>
             </div>
         </div>
     </div>
