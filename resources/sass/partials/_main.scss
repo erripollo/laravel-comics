@@ -3,25 +3,86 @@
 #site_main {
     background-color: $bg_color_main;
 
-    .cards {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        padding: 0.5rem 0;
-        .card {
+    .container {
+        position: relative;
+
+        .label {
             color: white;
             text-transform: uppercase;
-            font-size: 0.8rem;
-            width: calc(100% / 6 - 1.6rem);
-            height: 175px;
-            margin: 2.5rem 0.8rem;
+            font-size: 1.3rem;
+            display: inline-block;
+            background-color: $brand_color;
+            padding: 0.8rem 1.2rem;
+            font-weight: 600;
+            position: absolute;
+            top: -25px;
+            left: 0;
+        }
 
-            img {
-                width: 100%;
-                height: 100%;
-                object-fit: cover;
-                object-position: top;
-                margin-bottom: 0.8rem;
+        .cards {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 0.5rem 0;
+            .card {
+                color: white;
+                text-transform: uppercase;
+                font-size: 0.8rem;
+                width: calc(100% / 6 - 1.6rem);
+                height: 175px;
+                margin: 2.5rem 0.8rem;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    object-position: top;
+                    margin-bottom: 0.8rem;
+                }
+            }
+        }
+
+        .btn {
+            text-align: center;
+
+            .btn_solid {
+                color: white;
+                text-transform: uppercase;
+                font-size: 0.8rem;
+                background-color: $brand_color;
+                padding: 0.5rem 3rem;
+                font-weight: 600;
+                display: inline-block;
+                margin: 2.5rem 0 1rem;
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    .main_bottom {
+        background-color: $brand_color;
+        padding: 3rem 0;
+        .container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+            .card {
+                display: flex;
+                align-items: center;
+                color: white;
+                text-transform: uppercase;
+                font-size: 0.8rem;
+                font-weight: 200;
+
+                img {
+                    height: 50px;
+                    margin-right: 0.5rem;
+                }
+            }
+            & div:last-child img {
+                height: 30px;
             }
         }
     }
