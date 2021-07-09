@@ -3,5 +3,81 @@
     .banner {
         height: 70px;
         background-color: $brand_color;
+
+        .container {
+            position: relative;
+
+            .poster {
+                position: absolute;
+                top: -240px;
+                border: 1px solid white;
+
+                .book {
+                    text-transform: uppercase;
+                    color: white;
+                    font-size: 0.9rem;
+                    background-color: #00a9d9;
+                    padding: 0.2rem 0.5rem;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                }
+
+                .gallery {
+                    text-transform: uppercase;
+                    color: white;
+                    font-size: 0.9rem;
+                    background-color: #00a9d9;
+                    padding: 0.2rem 0.5rem;
+                    position: absolute;
+                    width: 100%;
+                    text-align: center;
+                    bottom: 0;
+                    left: 0;
+                }
+            }
+        }
+    }
+
+    .container {
+        display: flex;
+        align-items: center;
+        padding: 3rem 0;
+
+        .info {
+            width: calc(100% / 2);
+
+            h2 {
+                text-transform: uppercase;
+                color: $dc_dark_blue;
+                margin-bottom: 1rem;
+            }
+
+            .price_table {
+                width: 100%;
+                background-color: #55ba59;
+                display: flex;
+                justify-content: space-between;
+                padding: 1rem 1.5rem;
+                color: white;
+                font-size: 0.9rem;
+                margin-bottom: 1rem;
+
+                .price {
+                    width: 70%;
+                    display: flex;
+                    justify-content: space-between;
+                }
+            }
+
+            .desc {
+                font-size: 0.85rem;
+                line-height: 1.2rem;
+                color: $dc_text_gray;
+            }
+        }
+        .adv {
+            padding-left: 2.5rem;
+        }
     }
 }

@@ -78,7 +78,7 @@ body {
   padding-bottom: 0.3rem;
 }
 #site_header .jumbotron {
-  height: 350px;
+  height: 400px;
   background-image: url(../img/jumbotron.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -175,6 +175,72 @@ body {
 .comic_main .banner {
   height: 70px;
   background-color: #0482f9;
+}
+.comic_main .banner .container {
+  position: relative;
+}
+.comic_main .banner .container .poster {
+  position: absolute;
+  top: -240px;
+  border: 1px solid white;
+}
+.comic_main .banner .container .poster .book {
+  text-transform: uppercase;
+  color: white;
+  font-size: 0.9rem;
+  background-color: #00a9d9;
+  padding: 0.2rem 0.5rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.comic_main .banner .container .poster .gallery {
+  text-transform: uppercase;
+  color: white;
+  font-size: 0.9rem;
+  background-color: #00a9d9;
+  padding: 0.2rem 0.5rem;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  bottom: 0;
+  left: 0;
+}
+.comic_main .container {
+  display: flex;
+  align-items: center;
+  padding: 3rem 0;
+}
+.comic_main .container .info {
+  width: calc(100% / 2);
+}
+.comic_main .container .info h2 {
+  text-transform: uppercase;
+  color: #003f5e;
+  margin-bottom: 1rem;
+}
+.comic_main .container .info .price_table {
+  width: 100%;
+  background-color: #55ba59;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+  color: white;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+.comic_main .container .info .price_table .price {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+.comic_main .container .info .desc {
+  font-size: 0.85rem;
+  line-height: 1.2rem;
+  color: #555555;
+}
+.comic_main .container .adv {
+  padding-left: 2.5rem;
 }
 
 /* Site footer css */
