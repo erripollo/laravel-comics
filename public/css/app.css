@@ -162,3 +162,48 @@ body {
 #site_main .main_bottom .container div:last-child img {
   height: 30px;
 }
+
+/* Site footer css */
+#site_footer .footer_top {
+  background-image: url(../img/footer-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding: 2rem 0;
+}
+#site_footer .footer_top .links {
+  height: 380px;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+#site_footer .footer_top .links .list {
+  display: flex;
+  flex-direction: column;
+  margin-right: 3rem;
+}
+#site_footer .footer_top .links .list h2 {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1.3rem;
+  margin: 1.5rem 0;
+}
+#site_footer .footer_top .copyright {
+  color: #959595;
+  font-size: 0.8rem;
+}
+#site_footer .footer_top .copyright a {
+  color: #0482f9;
+}
+#site_footer a {
+  color: #959595;
+  text-decoration: none;
+  font-weight: 200;
+  font-size: 0.8rem;
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+#site_footer a:hover {
+  color: #0482f9;
+}

@@ -1,0 +1,52 @@
+/* Site footer css */
+
+#site_footer {
+    .footer_top {
+        background-image: url(../img/footer-bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+        padding: 2rem 0;
+
+        .links {
+            height: 380px;
+            display: flex;
+            flex-flow: column wrap;
+            align-items: flex-start;
+            align-content: flex-start;
+
+            .list {
+                display: flex;
+                flex-direction: column;
+                margin-right: 3rem;
+
+                h2 {
+                    text-transform: uppercase;
+                    font-weight: 600;
+                    font-size: 1.3rem;
+                    margin: 1.5rem 0;
+                }
+            }
+        }
+        .copyright {
+            color: #959595;
+            font-size: 0.8rem;
+
+            a {
+                color: $brand_color;
+            }
+        }
+    }
+
+    a {
+        color: #959595;
+        text-decoration: none;
+        font-weight: 200;
+        font-size: 0.8rem;
+        display: inline-block;
+        margin-bottom: 0.5rem;
+        &:hover {
+            color: $brand_color;
+        }
+    }
+}

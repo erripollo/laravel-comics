@@ -20,3 +20,4 @@ Route::get('/', function () {
 
     return view('comics', compact('comics'));
 })->name('comics');
+

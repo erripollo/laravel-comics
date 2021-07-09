@@ -1,3 +1,9 @@
+@php
+    $links = config('links');
+    //dd($links);
+@endphp
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -61,7 +67,29 @@
     {{-- Site footer --}}
     <footer id="site_footer">
 
-        Footer content
+        <div class="footer_top">
+            <div class="container">
+                <div class="links">
+                    @foreach ($links as $title => $links_array)
+                    <div class="list">
+                        <h2>{{$title}}</h2>
+    
+                        @foreach ($links_array as $link)
+                        <a href="#">{{$link}}</a>
+                        @endforeach
+    
+                    </div>
+                    @endforeach
+                </div>
+                <div class="copyright">
+                    <p>
+                        All Site Content TM and &copy; 2020 DC Entertainment, unless otherwise <a href="#">noted here</a>. All rights reserved.
+                    </p>
+                    <a href="#">Cookies Settings</a>
+                </div>
+
+            </div>
+        </div>
 
     </footer>
 
