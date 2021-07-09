@@ -171,6 +171,12 @@ body {
   height: 30px;
 }
 
+/* comic main css */
+.comic_main .banner {
+  height: 70px;
+  background-color: #0482f9;
+}
+
 /* Site footer css */
 #site_footer .footer_top {
   background-image: url(../img/footer-bg.jpg);
