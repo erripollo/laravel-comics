@@ -212,7 +212,7 @@ body {
   padding: 3rem 0;
 }
 .comic_main .container .info {
-  width: calc(100% / 2);
+  width: 60%;
 }
 .comic_main .container .info h2 {
   text-transform: uppercase;
@@ -235,8 +235,8 @@ body {
   justify-content: space-between;
 }
 .comic_main .container .info .desc {
-  font-size: 0.85rem;
-  line-height: 1.2rem;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
   color: #555555;
 }
 .comic_main .container .adv {
@@ -244,16 +244,26 @@ body {
 }
 
 /* Comic bottom section css */
+.bottom_section {
+  background-color: #f6f6f6;
+  border-top: 1px solid #e3e3e3;
+  padding-top: 2rem;
+}
 .bottom_section .container {
   display: flex;
 }
 .bottom_section .container .col_right {
   width: calc(100% / 2);
-  padding-right: 1rem;
+  padding-right: 2rem;
 }
 .bottom_section .container .col_left {
   width: calc(100% / 2);
-  padding-left: 1rem;
+  padding-left: 2rem;
+}
+.bottom_section .container h3 {
+  color: #003f5e;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #e3e3e3;
 }
 .bottom_section .container .info {
   display: flex;
@@ -262,13 +272,15 @@ body {
   font-size: 0.8rem;
   width: 100%;
   padding: 0.8rem 0;
+  border-bottom: 1px solid #e3e3e3;
 }
 .bottom_section .container .info .info_title {
-  width: 30%;
+  width: 40%;
   font-size: 0.9rem;
+  color: #003f5e;
 }
 .bottom_section .container .info .info_section {
-  width: 70%;
+  width: 60%;
 }
 
 /* Site footer css */
