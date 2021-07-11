@@ -247,7 +247,7 @@ body {
 .bottom_section {
   background-color: #f6f6f6;
   border-top: 1px solid #e3e3e3;
-  padding-top: 2rem;
+  padding: 2rem 0 8rem;
 }
 .bottom_section a {
   text-decoration: none;
