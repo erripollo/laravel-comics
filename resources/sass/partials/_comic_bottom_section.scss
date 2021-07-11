@@ -4,17 +4,25 @@
     background-color: #f6f6f6;
     border-top: 1px solid #e3e3e3;
     padding-top: 2rem;
+    a {
+        text-decoration: none;
+        color: $brand_color;
+    }
 
     .container {
         display: flex;
 
         .col_right {
             width: calc(100% / 2);
-            padding-right: 2rem;
+            padding-left: 2rem;
+            color: $dc_text_gray;
+            a {
+                text-transform: uppercase;
+            }
         }
         .col_left {
             width: calc(100% / 2);
-            padding-left: 2rem;
+            padding-right: 2rem;
         }
 
         h3 {
